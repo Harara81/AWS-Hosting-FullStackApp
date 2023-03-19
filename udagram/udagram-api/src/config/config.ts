@@ -1,26 +1,6 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 
-// ENV variables
-// - AWS_ACCESS_KEY_ID
-// - AWS_SECRET_ACCESS_KEY
-// Are Also needed
-
-export const config = {
-  username: "postgres",
-  password: "a5914st5914n",
-  database: "udagram",
-  host: "udagram.cklpvawcgdvp.us-east-1.rds.amazonaws.com",
-  aws_region: "us-east-1",
-  aws_profile: "",
-  aws_media_bucket: "arn:aws:s3:::udagram",
-  url: "http://localhost:8080",
-  jwt: {
-    secret: "Karla",
-  },
-};
-/*
-
 export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
   password: process.env.POSTGRES_PASSWORD,
@@ -34,4 +14,3 @@ export const config = {
     secret: process.env.JWT_SECRET,
   },
 };
- */
